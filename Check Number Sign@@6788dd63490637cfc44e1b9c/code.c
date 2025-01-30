@@ -9,5 +9,5 @@ int main()
         pritnf("Negative");
     else
         printf("Zero");
-    
+    return 0;
 }
