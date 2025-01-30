@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main() {
     int a;
-    if(a&(1<<31)==1)
+    scanf("%d",&a);
+    if(a&(1<<31))
     printf("Set");
     else if
     printf("Not Set");
