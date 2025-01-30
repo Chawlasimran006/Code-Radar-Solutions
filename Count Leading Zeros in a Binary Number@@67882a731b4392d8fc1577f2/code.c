@@ -10,7 +10,7 @@ int main()
         a=n>>1;
         count++;
     }
-    printf("%d",count-1);
+    printf("%d",count);
     return 0;
 
 }
