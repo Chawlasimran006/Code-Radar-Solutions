@@ -4,10 +4,10 @@ int main()
     int a;
     scanf("%d",&a);
     if(a>0)
-    printf("Positive");
+        printf("Positive");
     else if(a<0)
-    pritnf("Negative");
+        pritnf("Negative");
     else
-    printf("Zero");
-    return 0;
+        printf("Zero");
+    
 }
