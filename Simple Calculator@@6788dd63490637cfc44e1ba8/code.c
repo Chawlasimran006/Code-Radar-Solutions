@@ -16,8 +16,9 @@ int main()
         case '/':
         if (b==0)
         printf("Invalid");
-        else
+        else{
         printf("%d",a/b);break;
+        }
         default:
         printf("Invalid");
     }
