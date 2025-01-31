@@ -5,9 +5,9 @@ int main()
     scanf("%d",&a);
     int count=0;
     n=1<<31;
-    while(a& n==0)
+    while((a&n)==0)
     {
-        a=n>>1;
+        n=n>>1;
         count++;
     }
     printf("%d",count);
