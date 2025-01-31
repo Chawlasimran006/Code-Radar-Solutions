@@ -15,15 +15,13 @@ int main()
         printf("%d",a*b);break;
         case '/':
         {
-        if (b==0){
+        if (b==0)
         printf("Invalid");
-        }
-        else{
+        else
         printf("%d",a/b);break;
         }
-        }
         default:
-        printf("Invalid");
+        printf("Error");
     }
     return 0;
 }
