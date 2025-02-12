@@ -1,14 +1,14 @@
 #include <stdio.h>
-int main()
-{
-    int a;
-    scanf("%d",&a);
-    int count=0;
-    while(1<<a==0)
-    {
-        a=1<<a;
-        count+=1;
+
+
+
+int main() {
+    int n ,count = 0;
+    scanf("%d",&n);
+    while(n % 2 ==0 && n>0){
+        count++;
+        n/=2;
     }
-    printf("%d",count);
+    printf("%d\n",count);
     return 0;
 }
