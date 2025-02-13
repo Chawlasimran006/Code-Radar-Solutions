@@ -8,18 +8,18 @@ int main()
     printf("Not Prime\n");
     else
     {
-        while(i<=a/2)
+        while(i<=n/2)
         {
-           if(n%i==0);
+           if(n%i==0)
            is_prime=0;
            break; 
         }
         i++;
     }
     if(is_prime)
-    printf("Prime");
+    printf("Prime\n");
     else
-    printf("Not Prime");
+    printf("Not Prime\n");
     return 0;
     
 }
