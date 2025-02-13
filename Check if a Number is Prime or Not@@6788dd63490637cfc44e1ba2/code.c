@@ -13,8 +13,9 @@ int main()
            if(n%i==0)
            is_prime=0;
            break; 
+           i++;
         }
-        i++;
+        
     }
     if(is_prime)
     printf("Prime\n");
