@@ -15,8 +15,11 @@ int main()
            break; 
         }
         i++;
-        printf("Prime");
     }
+    if(is_prime)
+    printf("Prime");
+    else
+    printf("Not Prime");
     return 0;
     
 }
