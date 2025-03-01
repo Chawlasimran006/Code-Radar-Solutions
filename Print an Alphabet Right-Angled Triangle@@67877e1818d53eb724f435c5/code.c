@@ -11,9 +11,9 @@ int main()
         {
             printf("%c ",j);
         }*/
+        ch='A';
         for(j=1;j<=i;j++)
         {
-            ch='A';
             printf("%c ",ch);
             ch++;
         }
