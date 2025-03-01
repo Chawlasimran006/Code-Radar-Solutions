@@ -2,7 +2,7 @@
 int main()
 {
     int N,i,j;
-    char ch='A';
+    char ch;
     scanf("%d",&N);
     for(i=1;i<=N;i++)
     {
@@ -13,6 +13,7 @@ int main()
         }*/
         for(j=1;j<=i;j++)
         {
+            ch='A';
             printf("%c ",ch);
             ch++;
         }
