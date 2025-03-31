@@ -12,12 +12,14 @@ int main()
     int is_prime=1;
     for(int i=0;i<n;i++)
     {
-        
-        for(int j=2;j<=n/2;j++)
+        if(arr[i]<2)
+        continue;
+
+        for(int j=2;j<=arr[i]/2;j++)
         {
             if(arr[i]%j==0)
-            {is_prime=0;}
-            break;
+            {is_prime=0;
+            break;}
         }
         if(is_prime)
         count++;
