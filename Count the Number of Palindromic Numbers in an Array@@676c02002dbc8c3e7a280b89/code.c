@@ -11,7 +11,11 @@ int main()
     int count=0;
     for(int i=0;i<n;i++)
     {
-        int temp=arr[i];
+        int temp
+        if(arr[i]<0)
+        {temp=-arr[i];}
+        else
+        {temp=arr[i];}
         int reverse=0;
         while(temp!=0)
         {
