@@ -9,12 +9,12 @@ int main()
         scanf("%d",&arr[i]);
     }
     int count=0;
-    int is_prime=1;
+  
     for(int i=0;i<n;i++)
     {
         if(arr[i]<2)
         continue;
-
+          int is_prime=1;
         for(int j=2;j<=arr[i]/2;j++)
         {
             if(arr[i]%j==0)
