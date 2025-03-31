@@ -19,7 +19,7 @@ int main()
             reverse=reverse*10+a;
             temp=temp/10;
         }
-        if(arr[i]==temp)
+        if(arr[i]==reverse)
         {
             count++;
         }
