@@ -15,7 +15,7 @@ int main()
         {
             for(int c=0;c<n-p-1;c++)
             {
-                if(arr[c]<=arr[c+1])
+                if(arr[c]>arr[c+1] || arr[c]!=arr[c+1])
                 is_sorted=0;
             }
         }
