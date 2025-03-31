@@ -17,6 +17,7 @@ int main()
         {
             if(arr[i]%j!=0)
             {is_prime=1;}
+            break;
         }
         if(is_prime)
         count++;
