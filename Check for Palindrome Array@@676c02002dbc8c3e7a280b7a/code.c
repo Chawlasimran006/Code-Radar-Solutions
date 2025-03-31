@@ -8,15 +8,16 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    int new_arr[n];
-    for(j=0;j<n;j++)
+    int is_pallindrome=1;
+    for(int i=0;i<n/2;i++)
     {
-        for(i=n-1;i<=0;i--)
+        if(arr[i]!=arr[n-i-1])
         {
-            new_arr[j]=arr[i];
-        }   
+            is_pallindrome=0;
+            break;
+        }
     }
-    if(arr[i]==new_arr[j])
+    if(is_pallindrome)
     printf("YES");
     else
     printf("NO");
