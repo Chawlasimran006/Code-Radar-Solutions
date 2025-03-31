@@ -10,12 +10,16 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
+        int temp
         if(arr[i]<0)
         {
             temp=-arr[i];
         }
+        else
+        {
+            temp=arr[i];
+        }
         int sum=0;
-        int temp=arr[i];
         while(temp!=0)
         {
         int a=temp%10;
