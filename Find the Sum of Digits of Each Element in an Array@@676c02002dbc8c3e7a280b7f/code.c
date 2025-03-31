@@ -10,6 +10,10 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
+        if(arr[i]<0)
+        {
+            temp=-arr[i];
+        }
         int sum=0;
         int temp=arr[i];
         while(temp!=0)
@@ -18,6 +22,9 @@ int main()
         sum=sum+a;
         temp=temp/10;
         }
+        if(arr[i]<0)
+        printf("-%d ",sum);
+        else
         printf("%d ",sum);
     }
 }
