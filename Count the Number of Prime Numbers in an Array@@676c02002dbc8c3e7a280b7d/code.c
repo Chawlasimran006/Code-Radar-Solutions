@@ -15,7 +15,7 @@ int main()
         
         for(int j=2;j<=n/2;j++)
         {
-            if(arr[i]%j=0)
+            if(arr[i]%j==0)
             {is_prime=0;}
             break;
         }
