@@ -26,9 +26,7 @@ int main()
         sum=sum+a;
         temp=temp/10;
         }
-        if(arr[i]<0)
-        printf("-%d ",sum);
-        else
+        
         printf("%d ",sum);
     }
 }
