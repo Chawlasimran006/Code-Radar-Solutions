@@ -30,7 +30,7 @@ int main()
             }
         }
     }
-    if(is_sorted=)
+    if(is_sorted)
     {printf("%d",arr[n-2]);
     return 0;}
     else
